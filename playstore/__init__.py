@@ -45,9 +45,9 @@ class PlayStore(object):
             score = self._soup.find('div', 'score').text.strip()
             try:
                 # Convert to int if possible
-                self.score = int(score)
-            except:
-                self.score = score.strip()
+                self.score = float(score)
+            except Exception:
+                self.score = score
             finally:
                 # Just delete the variable
                 del score
@@ -156,4 +156,4 @@ class PlayStore(object):
         """
         src = self._soup.find('img', 'cover-image').get('src')
         r = requests.get(src)
-        return {u'content': r.content, u'name': 'cover-image', u'content': r.content, u'content-type': r.headers['content-type'], u'content-length': r.headers['content-length']}
+        return {u'content': r.content, u'name': 'cover-image', u'content': r.content, u'content-type': r.headers['content-type'], u'content-length': r.headers['content-length'], u'src': src}
