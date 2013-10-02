@@ -4,7 +4,7 @@ Python library to access Android App details from Google Play Store.
 
 Install
 ----
-`pip install playstore`
+`sudo pip install --pre playstore` # From pip1.4 onwards
 
 Usage
 ----
