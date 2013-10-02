@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.1.2'
+version = '0.1.3'
 
 setup(name='playstore',
       version=version,
@@ -22,7 +22,7 @@ setup(name='playstore',
           'requests == 1.2.3',
           'beautifulsoup4'
       ],
-      download_url = 'https://github.com/kracekumar/playstore/archive/v0.1.2.tar.gz',
+      download_url = 'https://github.com/kracekumar/playstore/archive/v0.1.3.tar.gz',
       entry_points="""
       # -*- Entry points: -*-
       """,
