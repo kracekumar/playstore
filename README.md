@@ -6,7 +6,7 @@ Install
 ----
 `pip install playstore`
 
-Usagae
+Usage
 ----
 ```
 from playstore import PlayStore
