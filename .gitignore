@@ -1,0 +1,6 @@
+.DS_Store
+*.py[cox]
+*.wpr
+.coverage
+*.swp
+*.egg-info
