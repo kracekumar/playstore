@@ -137,4 +137,4 @@ app.coverimage()
 """
 ```
 
-[Issues](https://github.com/kracekumar/playstore)
+Create new [Issues](https://github.com/kracekumar/playstore/issues/new).
