@@ -149,7 +149,7 @@ app.coverimage()
           'requests == 1.2.3',
           'beautifulsoup4'
       ],
-      download_url = 'https://github.com/kracekumar/playstore/tarball/0.1.1',
+      download_url = 'https://github.com/kracekumar/playstore/archive/v0.1.1.tar.gz',
       entry_points="""
       # -*- Entry points: -*-
       """,
