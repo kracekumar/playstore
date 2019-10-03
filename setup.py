@@ -19,7 +19,7 @@ setup(name='playstore',
       zip_safe=True,
       install_requires=[
           # -*- Extra requirements: -*-
-          'requests == 1.2.3',
+          'requests == 2.20.0',
           'beautifulsoup4'
       ],
       download_url = 'https://github.com/kracekumar/playstore/archive/v0.1.3.tar.gz',
